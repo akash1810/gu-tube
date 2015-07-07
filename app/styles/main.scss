@@ -1,0 +1,28 @@
+$padding: 20px;
+body {
+  padding: $padding;
+}
+
+form {
+  .mdl-textfield {
+    display: block;
+  }
+}
+
+.gu-links__results {
+  &.mdl-card {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  > .mdl-card__title {
+      color: #fff;
+      height: 70px;
+      background: #005689;
+  }
+}
+
+.gu-links--live {
+  color: red;
+  margin-right: 5px;
+}

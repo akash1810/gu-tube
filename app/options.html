@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+  <head>
+    <!-- build:css styles/vendor.css -->
+    <!-- bower:css -->
+    <link rel="stylesheet" href="bower_components/material-design-lite/material.min.css" />
+    <!-- endbower -->
+    <!-- endbuild -->
+    <!-- build:css styles/main.css -->
+    <link href="styles/main.css" rel="stylesheet">
+    <!-- endbuild -->
+  </head>
+  <body>
+
+  <h1>GuTube</h1>
+
+  <form action="#">
+    <div class="mdl-textfield mdl-js-textfield">
+      <input class="mdl-textfield__input" type="text" id="api-key__youtube" />
+      <label class="mdl-textfield__label" for="api-key__youtube">YouTube API Key</label>
+    </div>
+    <div class="mdl-textfield mdl-js-textfield">
+      <input class="mdl-textfield__input" type="text" id="api-key__capi" />
+      <label class="mdl-textfield__label" for="api-key__capi">CAPI Key</label>
+    </div>
+    <button id="save" type="button" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
+      Save
+    </button>
+  </form>
+
+  <h6 id="status"></h6>
+
+  <!-- build:js scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="bower_components/material-design-lite/material.min.js"></script>
+    <script src="bower_components/q/q.js"></script>
+    <script src="bower_components/q-xhr/q-xhr.js"></script>
+    <script src="bower_components/handlebars/handlebars.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:js scripts/options.js -->
+    <script src="scripts/options.js"></script>
+    <!-- endbuild -->
+  </body>
+</html>

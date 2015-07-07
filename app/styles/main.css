@@ -1,0 +1,27 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/aaskoolum\/code\/gu-tube\/app\/styles\/main\.scss}line{font-family:\000032}}
+body {
+  padding: 20px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/aaskoolum\/code\/gu-tube\/app\/styles\/main\.scss}line{font-family:\000037}}
+form .mdl-textfield {
+  display: block;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/aaskoolum\/code\/gu-tube\/app\/styles\/main\.scss}line{font-family:\0000313}}
+.gu-links__results.mdl-card {
+  width: 100%;
+  margin-top: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/aaskoolum\/code\/gu-tube\/app\/styles\/main\.scss}line{font-family:\0000318}}
+.gu-links__results > .mdl-card__title {
+  color: #fff;
+  height: 70px;
+  background: #005689;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/aaskoolum\/code\/gu-tube\/app\/styles\/main\.scss}line{font-family:\0000325}}
+.gu-links--live {
+  color: red;
+  margin-right: 5px;
+}
